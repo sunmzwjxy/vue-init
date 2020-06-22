@@ -1,6 +1,10 @@
 <template>
     <div>
-        {{msg}}
+        <h1>APP component</h1>
+        <router-link to="/foo">Foo</router-link>
+        <router-link to="/bar">Bar</router-link>
+
+        <router-view></router-view>
     </div>
 </template>
 

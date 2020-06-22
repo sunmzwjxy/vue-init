@@ -1,8 +1,12 @@
 import Vue from 'vue'
-import App from './components/app.vue'
+import router from './router/index.js'
+import App from './App.vue'
+
+// import m2, { title as title123, content } from './js/test.js'
 
 var vm = new Vue({
     el: '#app',
+    router,
     render: f => f(App)
 })
 
